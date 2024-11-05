@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+
+    <main class="main_container"> <!-- Tag Semântica -->
+      <figure class="figure"> <!-- Tag Semântica -->
+        <img class="nft_image" src="./images/image-equilibrium.jpg" alt="A glass cube with colored reflexes, in a blue background."> <!-- Alt Descritivo -->
+
+        <div class="overlay"> <!-- Filtro -->
+          <img class="overlay_view" src="./images/icon-view.svg" alt=""> <!-- Alt Vazio -->
+        </div>
+      </figure>
+
+      <article class="text_box"> <!-- Tag Semântica -->
+        <h1 class="title">Equilibrium &num;3429</h1>
+
+        <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="display_boxes">
+          <div class="price_box">
+            <img src="./images/icon-ethereum.svg" alt=""> <!-- Alt Vazio -->
+            <p class="price">0.041 ETH</p>
+          </div>
+          
+          <div class="time-left_box"> 
+            <img src="./images/icon-clock.svg" alt=""> <!-- Alt Vazio -->
+            <p class="time-left">3 days left</p>
+          </div>
+        </div>
+      </article>
+
+      <hr>
+
+      <footer class="creator_box"> <!-- Tag Semântica -->
+        <img class="creator_img" src="./images/image-avatar.png" alt="Jules Wyvern avatar image">
+
+        <p class="creator-name">Creation of <span>Jules Wyvern</span></p>
+      </footer>
+
+    </main>
+
+  </body>
+</html> 
